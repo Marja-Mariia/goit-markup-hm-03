@@ -6,6 +6,9 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -16,14 +19,38 @@ button {
   cursor: pointer;
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 address {
   font-style: normal;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* HEADER */
 .header {
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -40,7 +67,8 @@ address {
   color: #2e2f42;
 }
 
-.menu-item {
+.menu-list {
+  display: flex;
 }
 
 .header-menu-link {
@@ -79,6 +107,17 @@ address {
   color: #404bbf;
 }
 /* SECTION HERO */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
 .hero {
   background-color: #2e2f42;
 }
