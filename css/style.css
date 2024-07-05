@@ -26,13 +26,16 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
+img {
+  display: block;
+}
 
 address {
   font-style: normal;
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -46,11 +49,21 @@ address {
 
 /* HEADER */
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 90px;
 }
 
 .header-logo {
@@ -61,6 +74,8 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo-part {
@@ -69,6 +84,7 @@ address {
 
 .menu-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-menu-link {
@@ -107,26 +123,20 @@ address {
   color: #404bbf;
 }
 /* SECTION HERO */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-}
 .hero {
-  background-color: #2e2f42;
 }
+.container-hero {
+  background-color: #2e2f42;
+  padding: 188px 472px 292px;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin: 0 auto 48px auto;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -148,8 +158,18 @@ address {
 
 .features {
 }
+
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
 }
+
 .section-title {
 }
 .features-list {
