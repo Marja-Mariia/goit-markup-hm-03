@@ -40,7 +40,8 @@ img {
 
 container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -229,8 +230,13 @@ container {
 }
 
 /* SECTION TEAM */
+.team-container {
+  display: flexbox;
+}
 .team {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .team-title {
   font-size: 36px;
@@ -241,9 +247,14 @@ container {
   color: #2e2f42;
 }
 .section-title {
+  text-align: center;
+  margin: 72px;
 }
 
 .team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .team-item {
