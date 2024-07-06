@@ -22,22 +22,25 @@ button {
 p,
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 img {
   display: block;
 }
 
-address {
+/*address {
   font-style: normal;
-}
+}*/
 
-.container {
-  width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
+container {
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -56,6 +59,7 @@ address {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -63,7 +67,7 @@ address {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
-  margin-right: 90px;
+  margin-right: 332px;
 }
 
 .header-logo {
@@ -74,15 +78,20 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  align-items: center;
+  padding-left: 156px;
+}
+
+.logo {
+  width: 115px;
+  height: 24px;
+  padding-left: 76px;
 }
 
 .header-logo-part {
   color: #2e2f42;
 }
 
-.menu-list {
+.header-menu-list {
   display: flex;
   gap: 40px;
 }
@@ -106,6 +115,10 @@ address {
 /* ADDRESS */
 
 .address-list {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  margin-right: 156px;
 }
 
 .address-item {
@@ -124,9 +137,10 @@ address {
 }
 /* SECTION HERO */
 .hero {
-}
-.container-hero {
   background-color: #2e2f42;
+}
+
+.hero-container {
   padding: 188px 472px 292px;
 }
 
@@ -138,6 +152,7 @@ address {
   color: #ffffff;
   margin: 0 auto 48px auto;
 }
+
 .hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -147,6 +162,13 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  align-items: center;
+  min-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -155,8 +177,13 @@ address {
 }
 
 /* SECTION FEATURES */
+.features-container {
+  display: flexbox;
+}
 
 .features {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .visually-hidden {
@@ -172,10 +199,20 @@ address {
 
 .section-title {
 }
+
 .features-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 156px;
+  padding-right: 156px;
+  text-align: left;
+  gap: 8px;
 }
+
 .features-item {
+  padding: 24px;
 }
+
 .features-subtitle {
   font-size: 20px;
   font-weight: 500;
