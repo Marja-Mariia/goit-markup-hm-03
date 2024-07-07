@@ -112,7 +112,6 @@ address {
 
 .address-item {
   display: flex;
-  
 }
 
 .address-link {
@@ -129,15 +128,11 @@ address {
 /* SECTION HERO */
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
 }
 
 .hero-container {
-  display: flexbox;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -145,7 +140,17 @@ address {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  min-width: 496px;
+  max-width: 496px;
+}
+
+.hero-button-container {
+  display: block;
+  align-items: center;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button {
@@ -156,12 +161,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -174,6 +173,7 @@ address {
 .features {
   padding: 120px 0;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -184,7 +184,6 @@ address {
   white-space: nowrap;
   overflow: hidden;
 }
-
 
 .features-list {
   display: flex;
@@ -225,6 +224,7 @@ address {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
 .section-title {
 }
 
@@ -234,9 +234,8 @@ address {
 }
 
 .team-item {
-   display: flex;
-   width: calc((100% - 72px) / 4)
-  background-color: #ffffff;
+  display: flex;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
