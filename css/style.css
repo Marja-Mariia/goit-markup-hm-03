@@ -141,6 +141,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: auto;
 }
 
 .hero-button-container {
@@ -151,6 +152,8 @@ address {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  padding-top: 48px;
+  padding-left: 42%;
 }
 
 .hero-button {
@@ -161,6 +164,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  padding: 16px 32px 16px 32px;
 }
 
 .hero-button:hover,
@@ -172,6 +176,8 @@ address {
 
 .features {
   padding: 120px 0;
+  min-width: 1128px;
+  display: flex;
 }
 
 .visually-hidden {
@@ -225,22 +231,18 @@ address {
   margin-bottom: 72px;
 }
 
-.section-title {
-}
-
 .team-list {
   gap: 24px;
   display: flex;
 }
 
 .team-item {
-  display: flex;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .name-conteiner {
   padding: 32px 0;
+  display: flexbox;
 }
 
 .team-item-image {
@@ -252,8 +254,8 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-item-subtitle {
