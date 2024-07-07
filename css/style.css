@@ -27,7 +27,7 @@ h6 {
   margin-bottom: 0;
 }
 
-img {
+.img {
   display: block;
 }
 
@@ -76,7 +76,6 @@ address {
 }
 
 .menu-item {
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -85,6 +84,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -299,6 +299,7 @@ address {
   border-top: none;
 }
 .portfolio-item-image {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-content {
   font-size: 20px;
