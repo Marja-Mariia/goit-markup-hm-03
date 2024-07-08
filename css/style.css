@@ -48,13 +48,14 @@ address {
 
 .container {
   max-width: 1158px;
-  padding: 0 15;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -75,10 +76,10 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-item {
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -130,11 +131,11 @@ address {
 /* SECTION HERO */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -144,18 +145,10 @@ address {
   color: #ffffff;
   max-width: 496px;
   margin: auto;
+  padding-bottom: 48px;
 }
 
-.hero-button-container {
-  display: block;
-  align-items: center;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  padding-top: 48px;
-  padding-left: 42%;
+.button {
 }
 
 .hero-button {
@@ -166,7 +159,13 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  padding: 16px 32px 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
 }
 
 .hero-button:hover,
@@ -182,7 +181,8 @@ address {
   display: flex;
 }
 
-.visually-hidden {
+.visually-hidden,
+.section-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -201,10 +201,10 @@ address {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
+  width: calc((100% - 72px) / 4);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -242,7 +242,6 @@ address {
 }
 
 .team-item {
-  width: calc((100% - 72px) / 4);
 }
 
 .name-conteiner {
@@ -251,6 +250,8 @@ address {
 }
 
 .team-item-image {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-title {
