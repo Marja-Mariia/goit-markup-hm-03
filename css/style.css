@@ -6,6 +6,8 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -37,6 +39,12 @@ address {
   font-style: normal;
 }
 
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -46,16 +54,9 @@ address {
   display: flex;
 }
 
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-logo {
@@ -80,6 +81,7 @@ address {
 }
 
 .menu-item {
+  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -102,19 +104,20 @@ address {
 
 .address {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 156px;
 }
 
 .address-list {
-  display: flex;
   gap: 40px;
-  text-align: center;
+  display: flex;
+  padding-left: 156px;
+  margin: 0;
 }
 
 .address-item {
   display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-link {
@@ -181,8 +184,7 @@ address {
   display: flex;
 }
 
-.visually-hidden,
-.section-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -197,14 +199,14 @@ address {
 
 .features-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
 }
 
 .features-item {
 }
 
 .features-subtitle {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -242,6 +244,7 @@ address {
 }
 
 .team-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .name-conteiner {
@@ -250,8 +253,6 @@ address {
 }
 
 .team-item-image {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-title {
@@ -290,8 +291,10 @@ address {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
 .section-title {
 }
+
 .portfolio-list {
   background-color: #ffffff;
   display: flex;
@@ -352,6 +355,7 @@ address {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .logo {
 }
 
