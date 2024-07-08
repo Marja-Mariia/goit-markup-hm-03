@@ -147,9 +147,6 @@ address {
   padding-bottom: 48px;
 }
 
-.button {
-}
-
 .hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -248,9 +245,6 @@ address {
   display: flexbox;
 }
 
-.team-item-image {
-}
-
 .team-item-title {
   font-size: 20px;
   font-weight: 500;
@@ -272,9 +266,6 @@ address {
 /* SECTION PORTFOLIO */
 .portfolio {
   display: flex;
-}
-
-.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -307,8 +298,8 @@ address {
 
 .portfolio-name-container {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-image {
@@ -346,9 +337,6 @@ address {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.logo {
 }
 
 .footer-logo-part {
