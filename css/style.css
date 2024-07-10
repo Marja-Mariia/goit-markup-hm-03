@@ -40,7 +40,7 @@ address {
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 1440px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -48,6 +48,8 @@ address {
 /* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
 }
 
 .header-container {
@@ -57,6 +59,8 @@ address {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-logo {
@@ -68,6 +72,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-left: 156px;
 }
 
 .header-logo-part {
@@ -77,7 +82,7 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding-right: 332px;
+  padding-right: 156px;
 }
 
 .header-menu-link {
@@ -86,7 +91,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -100,20 +104,20 @@ address {
 /* ADDRESS */
 
 .address {
-  display: flex;
+  display: flexbox;
 }
 
 .address-list {
   gap: 40px;
   display: flex;
-  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 156px;
 }
 
 .address-item {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-link {
@@ -129,12 +133,15 @@ address {
 }
 /* SECTION HERO */
 .hero {
-  background-color: #2e2f42;
-  padding: 188px 0 188px;
+  display: flexbox;
 }
 
 .hero-container {
+  display: flexbox;
+  background-color: #2e2f42;
   padding: 188px 0;
+  width: 1440px;
+  height: 600px;
 }
 
 .hero-title {
@@ -142,9 +149,10 @@ address {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 48px;
+  margin-left: 472px;
   max-width: 496px;
-  margin: auto;
-  padding-bottom: 48px;
 }
 
 .hero-button {
@@ -171,9 +179,9 @@ address {
 
 /* SECTION FEATURES */
 .features {
-  padding: 120px 0;
-  min-width: 1128px;
-  display: flex;
+  display: flexbox;
+  padding: 120px;
+  gap: 24px;
 }
 
 .visually-hidden {
@@ -196,6 +204,8 @@ address {
 
 .features-item {
   width: calc((100% - 72px) / 4);
+  min-width: 264px;
+  gap: 8px;
 }
 
 .features-subtitle {
@@ -216,8 +226,13 @@ address {
 
 /* SECTION TEAM */
 .team {
-  background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.team-container {
+  width: 1140px;
+  height: 732px;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -231,18 +246,23 @@ address {
 }
 
 .team-list {
-  gap: 24px;
   display: flex;
+  margin-left: 156px;
+  gap: 24px;
+  background: #f4f4fd;
 }
 
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  width: 264px;
+  padding: 0px 0px 32px 0px;
 }
 
-.name-conteiner {
-  padding: 32px 0;
-  display: flexbox;
+.name-container {
+  display: flex;
+  text-align: center;
 }
 
 .team-item-title {
@@ -261,11 +281,17 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 /* SECTION PORTFOLIO */
 .portfolio {
   display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -314,7 +340,7 @@ address {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.portfolio-subcontent {
+.portfolio-sub-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
