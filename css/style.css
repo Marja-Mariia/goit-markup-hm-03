@@ -219,7 +219,7 @@ address {
 
 .features-item {
   width: calc((100% - 72px) / 4);
-  min-width: 264px;
+  max-width: 264px;
   gap: 8px;
 }
 
