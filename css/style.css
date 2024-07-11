@@ -310,9 +310,12 @@ address {
   display: flex;
   padding-left: 156px;
   padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-container {
+  display: flexbox;
   padding-top: 120px;
   padding-bottom: 120px;
 }
