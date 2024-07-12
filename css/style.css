@@ -279,13 +279,13 @@ address {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  width: 264px;
 }
 
 .name-container {
   display: flex;
-  text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
+
 }
 
 .team-item-title {
@@ -319,8 +319,7 @@ address {
 
 .portfolio-container {
   display: flexbox;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 
 .portfolio-title {
@@ -331,7 +330,6 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 
 .portfolio-list {
