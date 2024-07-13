@@ -255,7 +255,6 @@ address {
 }
 
 .name-container {
-  display: flexbox;
   padding: 32px 0;
 }
 
