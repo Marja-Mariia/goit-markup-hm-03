@@ -248,7 +248,6 @@ address {
   gap: 24px;
   background: #f4f4fd;
   padding-right: 156px;
-  margin-bottom: 120px;
 }
 
 .team-item {
@@ -264,7 +263,6 @@ address {
 
 .name-container {
   display: flexbox;
-  padding: 32px 0;
 }
 
 .team-item-title {
