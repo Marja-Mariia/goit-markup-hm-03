@@ -244,10 +244,8 @@ address {
 
 .team-list {
   display: flex;
-  margin-left: 156px;
   gap: 24px;
   background: #f4f4fd;
-  padding-right: 156px;
 }
 
 .team-item {
@@ -283,9 +281,6 @@ address {
 
 /* SECTION PORTFOLIO */
 .portfolio {
-  display: flexbox;
-  padding-left: 156px;
-  padding-right: 156px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
