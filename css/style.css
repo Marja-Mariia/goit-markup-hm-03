@@ -48,13 +48,12 @@ address {
 /* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  align-items: center;
 }
 
 .header-container {
-   display: flex;
+  display: flex;
   padding: 24px 0;
-    align-items: center;
-    padding: 0 15px;
 }
 
 .header-nav {
@@ -125,7 +124,6 @@ address {
 
 /* SECTION HERO */
 .hero {
-   display: flex;
   background-color: #2e2f42;
   align-items: center;
 }
@@ -231,7 +229,7 @@ address {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .team-list {
@@ -257,7 +255,6 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .team-item-subtitle {
@@ -285,7 +282,7 @@ address {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .portfolio-list {
@@ -338,8 +335,6 @@ margin-bottom: 72px;
   text-transform: uppercase;
   color: #4d5ae5;
   margin: auto;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 .footer-logo-part {
   color: #f4f4fd;
