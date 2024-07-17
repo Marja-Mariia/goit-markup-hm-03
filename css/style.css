@@ -49,12 +49,12 @@ address {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
+   padding: 0 15px;
 }
 
 .header-container {
   padding: 24px 0;
   display: flex;
-    padding: 0 15px;
 }
 
 .header-nav {
@@ -125,13 +125,13 @@ address {
 
 /* SECTION HERO */
 .hero {
+   display: flex;
   background-color: #2e2f42;
   align-items: center;
-   padding: 188px 0;
 }
 
 .hero-container {
-  display: flex;
+  padding: 188px 0;
 }
 
 .hero-title {
