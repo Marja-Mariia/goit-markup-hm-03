@@ -312,13 +312,13 @@ address {
 }
 
 .portfolio-name-container {
-  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
 .portfolio-content {
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
