@@ -49,12 +49,13 @@ address {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
-   padding: 0 15px;
+   padding: 188px 0;
 }
 
 .header-container {
   display: flex;
-  padding: 24px 0; 
+  padding: 24px 0;
+   padding: 0 15px;
 }
 
 .header-nav {
