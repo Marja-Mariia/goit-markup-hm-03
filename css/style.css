@@ -49,12 +49,13 @@ address {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
+  padding: 0 15px;
 }
 
 .header-container {
   display: flex;
   padding: 24px 0;
-   padding: 0 15px;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -230,7 +231,7 @@ address {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px; 
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -338,7 +339,7 @@ address {
   color: #4d5ae5;
   margin: auto;
   display: inline-block;
-   margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-logo-part {
   color: #f4f4fd;
